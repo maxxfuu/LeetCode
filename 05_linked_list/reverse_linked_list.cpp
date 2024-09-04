@@ -1,5 +1,9 @@
 struct Node { 
-    struct Node* next; 
+    Node* next = nullptr; 
     int value; 
     
+};  
+
+int main() { 
+    Node ListNode1; 
 }; 
